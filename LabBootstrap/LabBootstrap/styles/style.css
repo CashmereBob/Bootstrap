@@ -1,17 +1,109 @@
-﻿div, section, footer {
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300|Lobster);
+
+/*div, section, footer {
     border: 1px solid black;
+}*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.70);
+    border: none;
+}
 .one {
-    background-color:aliceblue; 
+    background-image: url('../images/herobg.jpg');
+    background-attachment:fixed;
+    background-position:left;
+    background-size:cover;
 }
 
 .one div {
-    height: 100vh;
+    height: 100vh; 
+    line-height: 100vh;
 }
 
 .two {
     background-color:blueviolet;
-    width: 100%;
 }
 
+h1{
+    margin: 0px auto;
+    display:inline-block;
+}
+
+.navbar-default .navbar-brand{
+    margin: 0px auto;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 22px;
+}
+
+.navbar-default .navbar-brand:hover{
+    color:coral;
+}
+
+.navbar-default .navbar-collapse {
+    border-top-color:rgba(255, 255, 255, 0.00);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color:coral;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.00);
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.00);
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: coral;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar{
+    background-color: coral;
+}
+
+
+.hero {
+    background-color:rgba(0, 0, 0, 0.00);
+    transition: all 0.5s ease-in-out;
+}
+
+.hero h2 {
+    vertical-align: middle;
+    float: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.00);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.hero:hover {
+    background-color:rgba(0, 0, 0, 0.40);
+    transition: all 0.2s ease-in-out;
+}
+
+.hero:hover h2 {
+   color: rgba(255, 255, 255, 1.00);
+   transition: all 0.2s ease-in-out;
+}
