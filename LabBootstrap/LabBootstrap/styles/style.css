@@ -14,7 +14,6 @@ body {
 }
 .one {
     background-image: url('../images/herobg.jpg');
-    background-attachment:fixed;
     background-position:left;
     background-size:cover;
 }
@@ -22,10 +21,6 @@ body {
 .one div {
     height: 100vh; 
     line-height: 100vh;
-}
-
-.two {
-    background-color:blueviolet;
 }
 
 h1{
@@ -106,4 +101,46 @@ h1{
 .hero:hover h2 {
    color: rgba(255, 255, 255, 1.00);
    transition: all 0.2s ease-in-out;
+}
+
+.two {
+    background-color: black;
+    overflow: hidden;
+}
+
+.two figure img {
+    width: 100%;
+    opacity: 0.3;
+    transition: all 0.5s ease-in-out;
+}
+
+.two figure:hover img{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;    
+}
+
+.two figure {
+    margin-bottom: 70px;
+    position:relative;
+    text-align: center;
+    
+}
+
+.two h2 {
+    margin: 30px auto;
+    color: white;
+}
+
+.two figure figcaption {
+    position: absolute;
+    margin: -20% auto auto auto;
+    width: 100%;
+    color: white;
+    transition: all 0.5s ease-in-out; 
+}
+
+.two figure:hover figcaption{
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 0.00);
+    transition: all 0.3s ease-in-out;    
 }
