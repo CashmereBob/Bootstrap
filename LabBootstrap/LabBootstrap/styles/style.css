@@ -1,0 +1,17 @@
+﻿div, section, footer {
+    border: 1px solid black;
+}
+
+.one {
+    background-color:aliceblue; 
+}
+
+.one div {
+    height: 100vh;
+}
+
+.two {
+    background-color:blueviolet;
+    width: 100%;
+}
+
