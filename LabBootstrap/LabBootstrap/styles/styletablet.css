@@ -4,4 +4,9 @@
     line-height: 50vh;
 }
 
+.two figure figcaption {
+    margin: -30% auto auto auto;
+}
+
+
 }

@@ -9,6 +9,7 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="styles/style.css" rel="stylesheet" type="text/css"/>
     <link href="styles/styletablet.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/js.js"></script>
 </head>
 <body>
     <header>
@@ -21,10 +22,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                <h1><a class="navbar-brand" href="#">Randheli</a></h1>
+                <h1><a class="navbar-brand" href="#top">Randheli</a></h1>
             </div><!-- /.container-fluid -->
-            
-
+                
              <div class="collapse navbar-collapse" id="navigation" >
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Gallery</a></li>
@@ -33,23 +33,28 @@
                     <li><a href="#">Game of Maldives</a></li>
                     <li><a href="#">Staff</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Links</a></li>
+                    <li><a href="#links" id="slide">Links</a></li>
                 </ul>
             </div>
-            </div>
+        </div>
+            
         </nav>
     </header>
     <div class="wrapper container-fluid">
-    <aside class="row one">
+    <aside id="top" class="row one">
+        <a href="#explore">
         <div class="col-sm-6 hero-unit text-center vcenter hero">
             <h2>EXPLORE THE ISLAND</h2>
         </div>
+        </a>
+        <a href="#touch">
         <div class="col-sm-6 hero-unit text-center vcenter hero">
             <h2>GET IN TOUCH</h2>
         </div>
+        </a>
     </aside>
     <article>
-            <section class="row two">
+            <section class="row two" id="explore">
             <div class="col-md-12 text-center">
             <h2>Exploring</h2>
             </div>
@@ -80,21 +85,38 @@
                     </figure>
                 </div>
             </section>
-        
-        <section class="row three">
-           
-           <div class="col-md-12 text-center">
+    </article>
+    </div>
+    <div class="container-fluid bottomhalf">
+           <aside class="row three" id="touch">
+           <div class="col-xs-12 text-center foothead">
             <h2>Get in touch</h2>
             </div>
-            <div class="col-md-2"></div>
-            <div id="staff" class="col-md-4">plopp</div>
-            <div id="conatct" class="col-md-4">plopp</div>
-            <div class="col-md-2"></div>
-        </section>
-    </article>
+            <div class="col-xs-12 col-sm-6 links">
+                <h2>THE STAFF</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 links">
+                <h2>CONTACT US</h2>
+            </div>
+        </aside>
     <footer class="row four">
-        <div id="info" class="col-md-6">adress</div>
-        <div id="links" class="col-md-6">links</div>
+        <div id="info" class="col-xs-12 col-sm-7 foot">
+            <h2>Randheli Resort</h2>
+            <p>Next level cornhole whatever hammock. Lumbersexual pickled iPhone biodiesel, locavore affogato fixie kinfolk banh mi tousled XOXO bitters viral waistcoat authentic. Stumptown YOLO man bun, four dollar toast squid lumbersexual poutine kinfolk seitan. Pinterest flexitarian blue bottle irony, tofu green juice mixtape retro DIY. Kinfolk health goth kitsch, gentrify umami asymmetrical squid humblebrag man bun mixtape forage ennui post-ironic celiac 3 wolf moon. Authentic humblebrag vinyl fingerstache, church-key whatever paleo ennui truffaut green juice etsy keffiyeh tofu. Gluten-free poutine cardigan flannel, normcore waistcoat gochujang art party venmo yr small batch mixtape.</p>
+        </div>
+        <div id="links" class="col-xs-12 col-sm-5 foot">
+            <h2>Friends and Related</h2>
+            <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Next level cornhole</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>whatever hammock</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Lumbersexual pickled</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>locavore affogato</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>kinfolk banh mi</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Stumptown YOLO</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>toast squid</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Pinterest flexitarian</a></li>     
+            </ul>
+        </div>
     </footer>
     </div>
 </body>
