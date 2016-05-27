@@ -94,11 +94,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\kungen.jpg" />
+    <Content Include="images\obama.jpg" />
     <Content Include="images\footerbg.jpg" />
+    <Content Include="images\pete.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="pages\contact.html" />
+    <Content Include="pages\gallery.html" />
+    <Content Include="pages\game.html" />
+    <Content Include="pages\reviews.html" />
+    <Content Include="pages\staff.html" />
+    <Content Include="pages\videos.html" />
     <Content Include="scripts\jquery-2.2.3.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -228,3 +228,57 @@ footer {
 .foothead h2{
     margin: 2% auto;
 }
+
+.portrait {
+    text-align: center;
+    margin: 8% auto 3% auto;
+}
+
+.portrait img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+h4 {
+    font-weight:700;
+}
+
+h4 + p {
+    margin-top: -5px;
+} 
+
+.cite {
+    margin: 6% auto;
+}
+
+.cite blockquote{
+    padding-left: 10%;
+    padding-right: 10%;
+    border-left: 1px solid whitesmoke;
+}
+
+.review {
+    box-shadow: -1px 0px 1px whitesmoke;
+}
+
+.reviewrow {
+    background-image: url('../images/herobg.jpg');
+    background-position:right;
+    background-size:cover;
+}
+
+.revheading {
+    margin-top: 55px;
+    text-align: center;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.60);
+}
+
+.revheading h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 300;
+    font-style:italic;
+    margin: 5px auto 30px auto;
+    font-size: 20px;
+}
