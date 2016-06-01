@@ -94,10 +94,30 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\korall.png" />
+    <Content Include="images\tuna.png" />
+    <Content Include="images\diver.png" />
+    <Content Include="images\inside1.jpg" />
+    <Content Include="images\inside2.jpg" />
+    <Content Include="images\inside3.jpg" />
+    <Content Include="images\inside4.jpg" />
+    <Content Include="images\island1.jpg" />
+    <Content Include="images\island2.jpg" />
+    <Content Include="images\island3.jpg" />
+    <Content Include="images\island4.jpg" />
     <Content Include="images\kungen.jpg" />
+    <Content Include="images\larsa.jpg" />
+    <Content Include="images\moray.png" />
+    <Content Include="images\nurseshark.png" />
     <Content Include="images\obama.jpg" />
     <Content Include="images\footerbg.jpg" />
+    <Content Include="images\outside2.jpg" />
+    <Content Include="images\outside3.jpg" />
+    <Content Include="images\outside4.jpg" />
     <Content Include="images\pete.jpg" />
+    <Content Include="images\aquarium.png" />
+    <Content Include="images\stonefish.png" />
+    <Content Include="images\tv.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -109,6 +129,7 @@
     <Content Include="pages\staff.html" />
     <Content Include="pages\videos.html" />
     <Content Include="scripts\jquery-2.2.3.min.map" />
+    <Content Include="images\outside1.jpg" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

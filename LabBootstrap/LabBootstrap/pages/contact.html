@@ -1,10 +1,112 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Randheli - reviews</title>
 	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="../scripts/jquery-2.2.3.min.js" type="text/javascript"></script>
+    <script src="../scripts/bootstrap.min.js" type="text/javascript"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../styles/styletablet.css" rel="stylesheet" type="text/css" />
+    <script src="../scripts/js.js" type="text/javascript"></script>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-default  navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                <h1><a class="navbar-brand" href="../index.html">Randheli</a></h1>
+            </div><!-- /.container-fluid -->
+                
+             <div class="collapse navbar-collapse" id="navigation" >
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="game.html">Game of Maldives</a></li>
+                    <li><a href="staff.html">Staff</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#links" id="slide">Links</a></li>
+                </ul>
+            </div>
+        </div>
+            
+        </nav>
+        <div class="container-fluid">
+        <div class="row reviewrow">
+        <section class="col-xs-12 revheading" >
+                <h2>Contact</h2>
+                <h3>Don´t be a stranger, get in touch.</h3>
+            </section>
+        </div>
+        </div>
 
+
+    </header>
+
+        <article class="container-fluid">
+        <div class="row">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-10">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7940.29525725006!2d73.33681203164288!3d5.6917979958744525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b6b31a715a24473%3A0x4ebb5498367c2e6b!2sRandheli!5e0!3m2!1sen!2sse!4v1464767662832" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-xs-1 col-sm-2"></div>
+        </div>
+        <div class="row contact">
+            <div class="col-sm-1"></div>
+            <form>
+            <fieldset class="col-sm-5">
+            <input type="text" name="fname" placeholder="Name"/>
+            <input type="email" name="email" placeholder="E-mail"/>
+            <input type="tel" name="tel" placeholder="Telephone"/>
+            <input type="text" name="subject" placeholder="Subject"/>
+
+            </fieldset>
+            <fieldset class="col-sm-5">
+            <textarea name="message" placeholder="Message"></textarea>
+               <select name="rate">
+                  <option value="good">&#x1F603;</option>
+                  <option value="ok">&#x1F633;</option>
+                  <option value="baad">&#x2639;</option>
+            </select>
+                 <input type="submit" id="button" />
+                
+            </fieldset>
+            </form>
+
+            <div class="col-sm-1"></div>
+        </div>
+    </article>
+
+    <div class="container-fluid bottomhalf">
+    <footer class="row four">
+        <div id="info" class="col-xs-12 col-sm-7 foot">
+            <h2>Randheli Resort</h2>
+            <p>Next level cornhole whatever hammock. Lumbersexual pickled iPhone biodiesel, locavore affogato fixie kinfolk banh mi tousled XOXO bitters viral waistcoat authentic. Stumptown YOLO man bun, four dollar toast squid lumbersexual poutine kinfolk seitan. Pinterest flexitarian blue bottle irony, tofu green juice mixtape retro DIY. Kinfolk health goth kitsch, gentrify umami asymmetrical squid humblebrag man bun mixtape forage ennui post-ironic celiac 3 wolf moon. Authentic humblebrag vinyl fingerstache, church-key whatever paleo ennui truffaut green juice etsy keffiyeh tofu. Gluten-free poutine cardigan flannel, normcore waistcoat gochujang art party venmo yr small batch mixtape.</p>
+        </div>
+        <div id="links" class="col-xs-12 col-sm-5 foot">
+            <h2>Friends and Related</h2>
+            <ul>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Next level cornhole</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>whatever hammock</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Lumbersexual pickled</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>locavore affogato</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>kinfolk banh mi</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Stumptown YOLO</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>toast squid</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Pinterest flexitarian</a></li>     
+            </ul>
+        </div>
+    </footer>
+    </div>
 </body>
 </html>

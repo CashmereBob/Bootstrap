@@ -1,10 +1,127 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-	<meta charset="utf-8" />
+    <title>Randheli</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="../scripts/jquery-2.2.3.min.js" type="text/javascript"></script>
+    <script src="../scripts/bootstrap.min.js" type="text/javascript"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/styletablet.css" rel="stylesheet" type="text/css" />
+    <script src="../scripts/js.js"></script>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-default  navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <h1><a class="navbar-brand" href="../index.html">Randheli</a></h1>
+                </div>
+                <!-- /.container-fluid -->
 
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../pages/gallery.html">Gallery</a></li>
+                        <li><a href="../pages/videos.html">Videos</a></li>
+                        <li><a href="../pages/reviews.html">Reviews</a></li>
+                        <li><a href="../pages/game.html">Game of Maldives</a></li>
+                        <li><a href="../pages/staff.html">Staff</a></li>
+                        <li><a href="../pages/contact.html">Contact</a></li>
+                        <li><a href="#links" id="slide">Links</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+    <article class="wrapper container-fluid">
+        <section id="top" class="row onevideo">
+            <div class="col-xs-12 videoheader">
+                <div class="logo">
+                    <div class="text">
+                        <h2>Game of Maldives</h2>
+                        <h3>Got to catch the all</h3>
+                    </div>
+                    <div class="fish">
+                        <img id="spin" src="../images/tuna.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row gamerow">
+            <div class="col-xs-12">
+                <div id="maingame" class="embed-responsive embed-responsive-16by9">
+                <canvas id="canvas" class="embed-responsive-item"></canvas>
+                    <img id="korall" src="../images/korall.png" />
+                    <img id="stonefish" src="../images/stonefish.png" />
+                    <img id="moray" src="../images/moray.png" />
+                    <img id="shark" src="../images/nurseshark.png" />
+                    <img id="diver" src="../images/diver.png" />
+                </div>
+            </div>
+        </section>
+
+        <section class="row controles">
+            <div class="col-sm-3">
+                <h4>Moray</h4>
+                <input class="radio" type="range" min="0" max="2" value="1" name="moray" />
+                
+            </div>
+            <div class="col-sm-3">
+                <h4>Stonefish</h4>
+                <input class="radio" type="range" min="0" max="2" value="1" name="stonefish" />
+            </div>
+            <div class="col-sm-3">
+                <h4>Nurse shark</h4>
+                <input class="radio" type="range" min="0" max="2" value="1" name="shark" />
+            </div>
+            <div class="col-sm-3">
+                <h4>Diver</h4>
+                <input id="divercontrol" class="radio" type="range" min="0" max="30" value="15" name="diver" />
+
+            </div>
+        </section>
+
+    </article>
+    <div class="container-fluid bottomhalf">
+        <aside class="row three" id="touch">
+            <div class="col-xs-12 text-center foothead">
+                <h2>Get in touch</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 links">
+                <h2>THE STAFF</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 links">
+                <h2>CONTACT US</h2>
+            </div>
+        </aside>
+        <footer class="row four">
+            <div id="info" class="col-xs-12 col-sm-7 foot">
+                <h2>Randheli Resort</h2>
+                <p>Next level cornhole whatever hammock. Lumbersexual pickled iPhone biodiesel, locavore affogato fixie kinfolk banh mi tousled XOXO bitters viral waistcoat authentic. Stumptown YOLO man bun, four dollar toast squid lumbersexual poutine kinfolk seitan. Pinterest flexitarian blue bottle irony, tofu green juice mixtape retro DIY. Kinfolk health goth kitsch, gentrify umami asymmetrical squid humblebrag man bun mixtape forage ennui post-ironic celiac 3 wolf moon. Authentic humblebrag vinyl fingerstache, church-key whatever paleo ennui truffaut green juice etsy keffiyeh tofu. Gluten-free poutine cardigan flannel, normcore waistcoat gochujang art party venmo yr small batch mixtape.</p>
+            </div>
+            <div id="links" class="col-xs-12 col-sm-5 foot">
+                <h2>Friends and Related</h2>
+                <ul>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Next level cornhole</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>whatever hammock</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Lumbersexual pickled</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>locavore affogato</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>kinfolk banh mi</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Stumptown YOLO</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>toast squid</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Pinterest flexitarian</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
