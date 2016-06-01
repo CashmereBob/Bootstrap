@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\beach.mp3" />
     <Content Include="images\korall.png" />
     <Content Include="images\tuna.png" />
     <Content Include="images\diver.png" />
